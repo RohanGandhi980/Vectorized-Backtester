@@ -1,4 +1,5 @@
-#Vectorized Backtester
+**Vectorized Backtester**
+-
 
 A backtesting framewwork powered by FastAPI for Indian stock market data
 It fetches OHLCV data from **Yahoo Finance** (`yfinance` + `yahooquery`), runs a **vectorized buy and hold backtest**, and generates performance metrics like **Final Equity, Sharpe Ratio, and Max Drawdown**, along with optional equity curve plots.
